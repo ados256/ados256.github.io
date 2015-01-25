@@ -1,0 +1,88 @@
+body{margin:0; padding:0; font-size:15px; font-family:"Book Antiqua", "Times New Roman", Times, serif; color:#b8b8b8; background-color:#DBDBDB;}
+a{text-decoration:none;color:inherited}
+/*----------------------------------------------Top-------------------------------------*/
+.top{
+	background-image: url(../bgcolor.jpg);
+	height:50px;
+	background-size:auto;
+	background-repeat:x;
+	position:fixed;
+	top:0;
+	width:100%;
+	box-shadow:0px 1px 0px #888888;
+	z-index:9999;
+}
+.buttonleft{
+	display:inline-block;
+	width:75px;
+	text-align:center;
+	border:1px solid #000A00 ;
+	height:48px;
+	line-height:50px;
+	font-size:1.25em;
+	position:relative;
+	float:left;
+	left:20%;
+}
+.buttonright{
+	display:inline-block;
+	width:75px;
+	text-align:center;
+	border:1px solid #000A00 ;
+	height:48px;
+	line-height:50px;
+	font-size:1.25em;
+	position:relative;
+	float:right;
+	right:30%;
+}
+a.buttonleft,a.buttonright{text-decoration:none;color:#b8b8b8;}
+a.buttonleft:visited,a.buttonright:visited{color:#b8b8b8;}
+a.buttonleft:hover,a.buttonright:hover{color:#ffffff;}
+#home{border-right:3px solid black}
+#homeclicked{background-color:#3E4E21;color:#ffffff;border-right:3px solid black}
+#contact{border-left:3px solid black}
+#contactclicked{background-color:#3E4E21;color:#ffffff;border-left:3px solid black}
+#projects{border-right:3px solid black;border-left:3px solid black}
+#projectsclicked{background-color:#3E4E21;color:#ffffff;border-right:3px solid black;border-left:3px solid black}
+/*----------------------------------------------Text body-------------------------------------*/
+.maintext{
+	background-color:#fff;
+	position:absolute;
+	margin-left:20%;
+	width:50%;
+	margin-top:55px;
+	color:black;
+	font-family:"Caslon";
+	box-shadow: 2px 2px 2px #888888;
+	border:1px solid #D3D3D3;
+	border-radius:3px;
+}
+.maintext> h1{
+	margin-left:20px;
+	display:inline-block;
+}
+h1>a.toplink {border-right:2px solid black;padding-right:20px;margin-right:-10px;}
+h1>a.toplink:visited{color:black}
+#lighter{font-weight:lighter;}
+div>hr{width:90%}
+p.content{
+	width:80%;
+	text-align:justify;
+	margin-left:5%;
+	font-size:1.25em;
+}
+p.content>a{text-decoration:underline;color:black}
+p.content>img{float:right;margin: 0px 0px 15px 20px;box-shadow: 3px 3px 3px #888888;}
+p.content>h2{width:80%;	text-align:justify;	margin-left:5%;}
+.paragraphheader{width:80%;	text-align:justify;	margin-left:5%;}
+img.projectbutton{float:right;margin: 0px 0px 15px 20px;box-shadow: 3px 3px 3px #888888;border:2px solid #002800;}
+img.projectbutton:hover{box-shadow:none;border:2px solid #007500}
+div.maintext>table.projectlist{
+	width:80%;
+	text-align:left;
+	margin-left:5%;
+	font-size:1.2em;
+}
+img.minecraftscreenshot{width:90%;float:left;margin-left:5%;height:auto;padding-top:10px;padding-bottom:10px}
+.imgdescription{text-align:center;}
